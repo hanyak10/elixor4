@@ -13,7 +13,7 @@
 }
 .one{
     /* background-color: #0B001A; */
-    height: 120vh;
+    /* height: 120vh; */
     background-image: url("./assests/Copy\ of\ website\ content\ \(1920\ x\ 1080\ px\).svg");
     background-repeat: no-repeat;
     width: 100%;
@@ -85,7 +85,7 @@ iframe{
 }
 .two{
     background-color: black;
-    height: 320vh;
+    /* height: 320vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -342,7 +342,10 @@ h1{
     /* background-color: #0B001A; */
     background-image: url("./assests/Copy\ of\ website\ content\ \(1920\ x\ 1080\ px\).svg");
     background-repeat: no-repeat;
-    height: 100vh;
+}
+.calendly-inline-widget{
+    overflow: hidden;
+    height: 700px;
 }
 
 .proof h1{
@@ -485,4 +488,162 @@ h1{
     font-size: 24px;
     padding-bottom:20px ;
     font-family: 'Anton';
+}
+
+
+
+@media (max-width:799px) {
+
+.one1-text{
+    font-size: 16px;
+    gap: 0;
+}
+.one ,.two{
+    height: auto;
+}
+.ver1{
+    display: none;
+}
+.img1{
+    margin-top: -150vh;
+    padding: 0;
+}
+.two-ver{
+    height: 150vh;
+    margin:0;
+}
+.two-two-one{
+    padding: 15px 0;
+    font-size: 28px;
+    margin: 30px 25px;
+}
+.two-two{
+    gap: 10px;
+}
+.two-one{
+    margin-left: 0;
+}
+.twov{
+    overflow: hidden;
+}
+.rig{
+    margin-left:50px;
+}
+.btn{
+    margin-top: -70px;
+    margin-left: -50px;
+}
+.mil{
+    margin-top: -40px;
+    margin-left: 20px;
+}
+.mon{
+    margin: 0;
+    font-size: 20px;
+}
+.mon2{
+font-size: 24px;
+margin-left: 0;
+}
+.art{
+    font-size: 20px;
+}
+.month{
+    height: 150px;
+}
+.com{
+    width: 200px;
+}
+.four{
+    padding: 30px 0;
+    background-color: #0B001A;
+    background-image: none;
+}
+.video6 video{
+    width: 660px;
+}
+.calendly-inline-widget{
+    width: 700px;
+    height: 120vh;
+}
+.five{
+    height: 133vh;
+    background-repeat: repeat;
+}
+}
+@media (max-width:477px) {
+    .video6 video{
+        height: 340px;
+    }
+    .videos2 video{
+        width: 300px;
+    }
+    .three-con{
+        margin: 0;
+    }
+    .copy{
+        text-align: center;
+        width: 350px;
+    }
+    .paul{
+        text-align: center;
+    }
+    .paul .bx1{
+        padding: 0 5px;
+        font-size: 20px;
+    }
+    .faqs{
+        width: 90%;
+    }
+    .desc-high{
+        width: 300px;
+    }
+    .two-desc{
+        width: 350px;
+    }
+    .one-button img{
+        width: 350px;
+    }
+    iframe{
+        margin: 0;
+        width: 350px;
+    }
+    .one1-text .bx{
+        font-size: 18px;
+    }
+    .twov{
+        display: none;
+    }
+    .two-two-one{
+        margin: 30px 0;
+        font-size: 20px;
+        padding: 25px 0;
+    }
+    .two-one-con{
+        margin: auto;
+    }
+    .two-one-con-one{
+        font-size: 100px;
+    }
+    .month span{
+        font-size: medium;
+    }
+    .com{
+        width: 200px;
+    }
+    .rig{
+        margin-left: 50px;
+    }
+   .bus{
+    margin: 10px 0;
+   }
+   .one1-text{
+    font-size: 10px;
+   }
+   .two-two{
+    margin-top: -50px;
+   }
+   .btn{
+    margin: -50px 0 0 0;
+   }
 }
