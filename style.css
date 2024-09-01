@@ -320,7 +320,6 @@ h1{
 .calendly-inline-widget{
     overflow: hidden;
     height: 700px;
-    margin-left: 20px;
 }
 
 .proof h1{
@@ -575,6 +574,8 @@ margin-left: 0;
 .calendly-inline-widget{
     width: 700px;
     height: 120vh;
+    margin-left: 20px;
+
 }
 .five{
     height: 143vh;
