@@ -601,6 +601,9 @@ margin-left: 0;
         background-repeat: no-repeat;
         background-size: cover;
     }
+    .calendly-inline-widget{
+       width: 325px;
+    }
     .video6 video{
         height: 340px;
     }
