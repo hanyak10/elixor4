@@ -574,12 +574,13 @@ margin-left: 0;
 .calendly-inline-widget{
     width: 700px;
     height: 120vh;
-    margin-left: 20px;
+    margin-left: 10px;
 
 }
 .five{
     height: 143vh;
     background-repeat: repeat;
+    padding: 10px;
 }
 .automation{
     width: 375px;
@@ -590,6 +591,9 @@ margin-left: 0;
 }
 }
 @media (max-width:477px) {
+    .mil{
+        margin-top: 10px;
+    }
     .automation{
         width: 325px;
     background-color: black;
