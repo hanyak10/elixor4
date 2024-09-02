@@ -455,7 +455,7 @@ h1{
 }
 .thank{
     background-image: url("./assests/Copy\ of\ website\ content\ \(1920\ x\ 1080\ px\).svg");
-    height: 120vh;
+    /* height: 120vh; */
 }
 .para{
     display: flex;
@@ -495,7 +495,84 @@ h1{
 }
 
 
-
+@media (max-width:1280px) {
+    
+    .one1-text{
+        font-size: 16px;
+        gap: 0;
+    }
+    .one{
+        background-image: url("./assests/copy.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .one ,.two{
+        height: auto;
+    }
+    .ver1{
+        display: none;
+    }
+    .img1{
+        margin-top: -150vh;
+        padding: 0;
+    }
+    .two-ver{
+        height: 150vh;
+        margin:0;
+    }
+    .two-two-one{
+        padding: 15px 0;
+        font-size: 28px;
+        margin: 30px 25px;
+    }
+    .two-two{
+        gap: 10px;
+    }
+    .two-one{
+        margin-left: 0;
+    }
+    .twov{
+        overflow: hidden;
+    }
+    .rig{
+        margin-left:50px;
+    }
+    .btn{
+        margin-top: -70px;
+        margin-left: -50px;
+    }
+    .mil{
+        margin-top: -40px;
+        margin-left: 20px;
+    }
+    .mon{
+        margin: 0;
+        font-size: 20px;
+    }
+    .mon2{
+    font-size: 24px;
+    margin-left: 0;
+    }
+    .art{
+        font-size: 20px;
+    }
+    .month{
+        height: 150px;
+    }
+    .com{
+        width: 200px;
+    }
+    .four{
+        background-color: black;
+        background-image: none;
+    }
+    .automation{
+        background-image: url("./assests/content2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: black;
+    }
+    }
 @media (max-width:799px) {
 .six{
     display: flex;
@@ -588,6 +665,12 @@ margin-left: 0;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
+}
+.para ,.ends{
+    padding: 20px;
+}
+.images img{
+    width: 375px;
 }
 }
 @media (max-width:477px) {
